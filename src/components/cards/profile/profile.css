@@ -1,0 +1,90 @@
+.profile {
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: #1b2730;
+    border-radius: 10px;
+}
+
+.coverPicture {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.profilePicSpan {
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.profilePicCard {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 25px;
+    margin-bottom: -15px;
+}
+
+.userName {
+    padding-top: -50px;
+    color: #6d7c85;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.desc {
+    margin-top: -25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.followersAndFollowing {
+    display: flex;
+    flex-direction: row;
+}
+
+.followers p {
+    font-size: 15px;
+    margin-top: -10px;
+    color: #6d7c85;
+}
+
+.following p {
+    font-size: 15px;
+    margin-top: -10px;
+    color: #6d7c85;
+}
+
+.dividerProfile {
+    font-weight: 100;
+    margin-top: 0px;
+    font-size: 80px;
+    font-weight: 50;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #24303a;
+}
+
+.profileButtonSection {
+    margin-top: -50px;
+}
+
+.profileButton {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.profileButtonText {
+    color: #287fb3;
+    cursor: pointer;
+}
