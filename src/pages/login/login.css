@@ -1,0 +1,79 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+.other {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginButton {
+    width: 100%;
+    margin-top: 10px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.loginButton:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.forgottenButton {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+

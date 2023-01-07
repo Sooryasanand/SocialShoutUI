@@ -1,8 +1,8 @@
 import React from 'react'
-import "./profile.css"
+import "./profileCard.css"
 import Divider from "@material-ui/core/Divider";
 
-export default function profile() {
+export default function profileCard() {
   return (
     <div className='profile'>
       <div className="pic">

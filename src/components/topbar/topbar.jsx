@@ -16,9 +16,8 @@ export default function topbar() {
         </div>
         <div className="leftSide">
             <div className="menu">
-                <div className="navigationSelected">
-                    <HomeIcon className='iconSelected'/>
-                    <p>Home</p>
+                <div className="navigation">
+                    <HomeIcon className='icons' style={{ fontSize: 30 }}/>
                 </div>
                 <div className="navigation">
                     <MailIcon className='icons' style={{ fontSize: 30 }} />

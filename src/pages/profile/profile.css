@@ -1,4 +1,4 @@
-.profile {
+.profilePage {
     margin-left: 20px;
     margin-right: 30px;
     background-color: #1b2730;
@@ -64,27 +64,30 @@
     color: #6d7c85;
 }
 
-.dividerProfile {
-    font-weight: 100;
-    margin-top: 0px;
-    font-size: 80px;
-    font-weight: 50;
-    margin-right: 50px;
-    margin-left: 50px;
-    color: #24303a;
+.postsAndFriends {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.profileButtonSection {
-    margin-top: -50px;
+.postUploadProfile {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 30px;
 }
 
-.profileButton {
-    background: none;
-    border: none;
-    font-size: 20px;
+.friends {
+    margin-left: 20px;
+    margin-right: 4px;
+    background-color: #1b2730;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 30%;
+    height: min-content;
 }
 
-.profileButtonText {
-    color: #287fb3;
-    cursor: pointer;
+.title {
+    margin-left: 20px;
 }

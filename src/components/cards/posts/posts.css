@@ -1,0 +1,159 @@
+.posts{
+    background-color: #1b2730;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.userProfilePic {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.aboutUser {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nameUserName p {
+    color: #6d7c85;
+    margin-top: -15px;
+}
+
+.moreButton {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.content {
+    margin-left: 100px;
+    max-width: 70%;
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+.likes {
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.postLikeImage {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.postRepostImage {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.postLikeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.likeCounter {
+    margin-left: 5px;
+    color: #6d7c85;
+    cursor: pointer;
+}
+
+.postComment {
+    margin-right: 20px;
+    color: #6d7c85;
+    cursor: pointer;
+}
+
+.button {
+    width: 170px;
+    height: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    background-color: #28353e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #3d5261;
+}
+
+.buttonOther {
+    width: 170px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: #28353e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonOther:hover {
+    background-color: #3d5261;
+}
+
+.buttonShare {
+    width: 70px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: #28353e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonShare:hover {
+    background-color: #3d5261;
+}
+
+.buttonInside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.buttonIcon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.buttonIconLiked {
+    width: 20px;
+    height: 20px;
+    color: #cc2323;
+}
+
+.buttonText {
+    font-size: 17px;
+    margin-left: 15px;
+    color: white;
+}

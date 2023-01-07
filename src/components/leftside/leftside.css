@@ -1,6 +1,5 @@
 .leftside {
     flex: 3;
-    height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
 }

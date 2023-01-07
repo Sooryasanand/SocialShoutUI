@@ -5,10 +5,11 @@ import LeftSide from '../../components/leftside/leftside'
 import Feed from '../../components/feed/feed'
 import RightSide from '../../components/rightside/rightside'
 
-export default function home() {
+export default function Home() {
+
   return (
     <>
-      <TopBar />
+      <TopBar/>
       <div className="homeContainer">
         <LeftSide />
         <Feed />
